@@ -1,11 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
 body {
     background:#E5E5E5 ;
 }
 .main-grid {
     background: #FFFFFF;
-    max-width: auto;
+    max-width: 600px;
     margin:100px auto;
-    padding:20px;
+   padding-left:40px; 
+    padding-right: 40px;
+    display: grid;
+    grid-template-columns:2fr   2fr 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap:15px;
+   
 }
 .item {
     background-color:#007f57 ;
@@ -13,4 +24,5 @@ body {
     padding:20px;
     border: white 1px solid;
     border-radius: 20px;
+    
 }
