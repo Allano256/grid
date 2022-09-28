@@ -1,0 +1,16 @@
+body {
+    background:#E5E5E5 ;
+}
+.main-grid {
+    background: #FFFFFF;
+    max-width: auto;
+    margin:100px auto;
+    padding:20px;
+}
+.item {
+    background-color:#007f57 ;
+    color:white;
+    padding:20px;
+    border: white 1px solid;
+    border-radius: 20px;
+}
