@@ -8,9 +8,11 @@ body {
 }
 .main-grid {
     background: #FFFFFF;
-    max-width:100%;
+    /*max-width:100%;
    width: 1240px;
-   height: 900px;
+   height: 900px;*/
+   width: 60%;
+   height: auto;
     margin:100px auto;
     padding: 20px 40px 20px 40px;
     display: grid;
